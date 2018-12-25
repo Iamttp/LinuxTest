@@ -6,3 +6,7 @@ git版本控制
 > 1.more.cpp	//linux的more命令
     amore.out   //输出
     编译指令：    //g++ -o amore.out more.cpp 
+
+> 2.who.cpp     //linux的who命令
+    awho.out
+    编译指令：    //g++ -o awho.out who.cpp

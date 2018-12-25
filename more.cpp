@@ -2,8 +2,18 @@
     * more实现（暂时存在部分缺陷）
     * 关键字    ： argc,argv
     *          : fgets(line,LINELEN,fp)
-    *          : fputs(line,stdout)
-    *          : \033[7m printf反显 
+                    函数原型
+                        char *fgets(char *buf, int bufsize, FILE *stream);
+                    参数
+                        *buf: 字符型指针，指向用来存储所得数据的地址。
+                        bufsize: 整型数据，指明存储数据的大小。
+                        *stream: 文件结构体指针，将要读取的文件流。
+    *          : fputs(line,stdout)         
+                        int fputs(const char *str, FILE *stream);
+                    返回值：该函数返回一个非负值，如果发生错误则返回 EOF(-1)。
+                        （1）str：这是一个数组，包含了要写入的以空字符终止的字符序列。
+                        （2）stream：指向 FILE 对象的指针，该 FILE 对象标识了要被写入字符串的流
+    *          : \033[7m                    printf反显 
 ***************************************************/
 
 #include<stdio.h>
