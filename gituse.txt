@@ -1,14 +1,15 @@
-首先要
-git config --global user.name ttp
-git config --global user.email 1877784332@qq.com
-然后
-git init初始化
-git add --all加入修改
-git status查看状态
-最后
-git commit -m "init files"初始化
-git remote add origin https://github.com/Iamttp/one设置http地址
-git remote remove origin可以删除
-git push -u origin +master 加入
+git简单使用及上传至github
+1.首先要
+git config --global user.name ttp                       设置全局name
+git config --global user.email 1877784332@qq.com        设置全局email
+2.然后
+git init                                                初始化
+git add --all                                           加入修改
+git commit -m "init files"                              加入修改，-m添加信息
+git status                                              查看状态
+3.最后
+git remote add origin https://github.com/Iamttp/one     设置http地址
+git remote remove origin                                可以删除设置的地址
+git push -u origin +master                              加入修改
 
 
